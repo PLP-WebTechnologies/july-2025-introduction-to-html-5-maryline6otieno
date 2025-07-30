@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An example of a semantically structured, accessible, and SEO-friendly HTML5 page, made with pure HTML.">
+    <meta name="keywords" content="HTML5, semantic HTML, accessibility, SEO, pure HTML, web development">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.yourwebsite.com/index.html">
+
+    <title>Pure HTML: Semantic, Accessible & SEO-Friendly Page</title>
+
+    <meta property="og:title" content="Pure HTML: Semantic, Accessible & SEO-Friendly Page">
+    <meta property="og:description" content="An example of a semantically structured, accessible, and SEO-friendly HTML5 page, made with pure HTML.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourwebsite.com/index.html">
+    <meta property="og:image" content="https://www.yourwebsite.com/images/og-image.jpg">
+    <meta property="og:image:alt" content="A screenshot of a well-structured web page">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@yourtwitterhandle">
+    <meta name="twitter:creator" content="@yourtwitterhandle">
+    <meta name="twitter:title" content="Pure HTML: Semantic, Accessible & SEO-Friendly Page">
+    <meta name="twitter:description" content="An example of a semantically structured, accessible, and SEO-friendly HTML5 page, made with pure HTML.">
+    <meta name="twitter:image" content="https://www.yourwebsite.com/images/twitter-image.jpg">
+</head>
+<body>
+
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="#main-content" class="skip-link">Skip to main content</a>
+            <img src="images/logo.png" alt="Company Logo" width="50" height="50">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Our Pure HTML Website!</h1>
+        <p>This page showcases strong HTML fundamentals, without any styling or scripting.</p>
+    </header>
+
+    <main id="main-content">
+        <section aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Understanding Semantic HTML5 (HTML Only)</h2>
+            <p>Semantic HTML5 uses elements that convey meaning to browsers and assistive technologies. This helps both developers and machines understand the document's structure and content better.</p>
+            <p>Elements like `header`, `nav`, `main`, `section`, `article`, and `footer` are used here instead of generic `div`s to provide a clear and logical layout.</p>
+
+            <article aria-labelledby="benefits-heading">
+                <h3 id="benefits-heading">Key Benefits of Semantic Structure</h3>
+                <ul>
+                    <li><strong>Enhanced Accessibility:</strong> Screen readers interpret content more accurately.</li>
+                    <li><strong>Improved SEO:</strong> Search engines better understand content context for indexing.</li>
+                    <li><strong>Cleaner Codebase:</strong> Makes the code easier to read and maintain for developers.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section aria-labelledby="accessibility-heading">
+            <h2 id="accessibility-heading">Focusing on Core Web Accessibility</h2>
+            <p>Accessibility ensures that websites are usable by everyone, including individuals with disabilities. This page demonstrates several key accessibility practices using only HTML attributes.</p>
+            <figure role="img" aria-labelledby="image-caption">
+                <img src="images/accessibility-icon.png" alt="An icon symbolizing universal access or accessibility." width="100" height="100">
+                <figcaption id="image-caption">A visual representation highlighting the importance of web accessibility.</figcaption>
+            </figure>
+            <p>Important accessibility considerations implemented here include:</p>
+            <ol>
+                <li>Using descriptive `alt` text for all images.</li>
+                <li>Employing `aria-label` and `aria-labelledby` for clearer navigation and section definitions.</li>
+                <li>Providing a "skip to main content" link for keyboard users.</li>
+                <li>Setting the `lang` attribute for proper language declaration.</li>
+            </ol>
+            <p>For more details on web accessibility, refer to <a href="https://www.w3.org/WAI/" target="_blank" rel="noopener noreferrer">W3C Web Accessibility Initiative (WAI)</a>.</p>
+        </section>
+
+        <section aria-labelledby="seo-heading">
+            <h2 id="seo-heading">Fundamental SEO Practices in HTML</h2>
+            <p>Effective Search Engine Optimization starts with well-structured HTML. Search engines rely on your HTML to understand and rank your content appropriately.</p>
+            <article aria-labelledby="seo-tips-heading">
+                <h3 id="seo-tips-heading">Essential HTML Elements for SEO</h3>
+                <dl>
+                    <dt>The `&lt;title&gt;` Tag</dt>
+                    <dd>This is paramount. A unique, concise, and keyword-rich title for each page is critical for visibility.</dd>
+
+                    <dt>The `&lt;meta name="description"&gt;` Tag</dt>
+                    <dd>A brief summary of your page content helps attract clicks from search results.</dd>
+
+                    <dt>Logical Heading Structure (`&lt;h1&gt;` to `&lt;h6&gt;`)</dt>
+                    <dd>Headings provide a hierarchical outline of your page, signaling important topics to search engines.</dd>
+
+                    <dt>Image `alt` Attributes</dt>
+                    <dd>Describes image content for both search engines and visually impaired users.</dd>
+
+                    <dt>The `&lt;link rel="canonical"&gt;` Tag</dt>
+                    <dd>Prevents duplicate content issues by specifying the preferred URL for a page.</dd>
+                </dl>
+            </article>
+        </section>
+
+        <aside aria-labelledby="related-links-heading">
+            <h2 id="related-links-heading">Further Reading (HTML Focused)</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN Web Docs - HTML Reference</a></li>
+                <li><a href="https://html.spec.whatwg.org/multipage/" target="_blank" rel="noopener noreferrer">HTML Living Standard (WHATWG)</a></li>
+                <li><a href="https://www.w3.org/standards/webdesign/htmlcss" target="_blank" rel="noopener noreferrer">W3C HTML & CSS Resources</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+        <address>
+          
+            <p>Email: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+        </address>
+    </footer>
+
+</body>
+</html>
